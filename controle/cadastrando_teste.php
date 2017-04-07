@@ -1,3 +1,10 @@
+<script language="JavaScript">
+    function confirmacao()
+    {
+        location.href="../user/index_user.php";
+    }
+</script>
+
 <?php
 session_start();
 require_once '../classes/Teste.php';
@@ -19,3 +26,5 @@ $p->setTeste_10($questao[10]);
 $p->setId_aluno($questao[0]);
 $p->setId_usuario($_SESSION['id']);
 $p->inserir_teste();
+
+echo "<script>confirmacao()</script>";

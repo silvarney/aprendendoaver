@@ -3,9 +3,17 @@ html{
     font-size: 32px;
 }
 
-fieldset{
-    border-radius: 2%;
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: 2px;
 }
+
 
 textarea{
     font-size: 32px;
@@ -23,7 +31,6 @@ button{
     border-radius: 7%;
 }
 
-
 label > input{
     visibility: hidden;
     position: absolute;
@@ -32,6 +39,14 @@ label > input + img{
     cursor: pointer;
     border: 2px solid transparent;
 }
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
 
 .modalDialog {
     position: fixed;
@@ -129,13 +144,13 @@ input{
     margin-right: 5%;
     margin-top: 2%;
     border: 3px solid #ffff00;
-    
+
 }
 
 .box-apresentacao{
     margin-top: 10%;
     font-size: 32px;
-    
+
     font-family: arial black, helvetica, sans-serif;
 }
 

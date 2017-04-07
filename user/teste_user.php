@@ -31,9 +31,9 @@ $mostrar_teste = $teste->ler_teste();
         <hr>
 
         <ul>
-            <li><a href="#selecionarAluno" accesskey="1">Pagina Inicial(1)</a></li>
-            <li><a href="#selecionarAluno" accesskey="2">Iniciar Teste(2)</a></li>
-            <li><a href="#cadastroAluno" accesskey="3">Cadastrar Aluno(3)</a></li>
+            <li><a href="index_user.php" accesskey="1">Pagina Inicial(1)</a></li>
+            <li><a href="index_user.php#selecionarAluno" accesskey="2">Iniciar Teste(2)</a></li>
+            <li><a href="index_user.php#cadastroAluno" accesskey="3">Cadastrar Aluno(3)</a></li>
             <li><a href="#" accesskey="4">Resultado(4)</a></li>
             <li><a href="#" accesskey="5">Contatos(5)</a></li>
             <li><a href="../controle/sair.php" accesskey="5">sair(6)</a></li>

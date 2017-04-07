@@ -1,3 +1,11 @@
+<script language="JavaScript">
+    function confirmacao()
+    {
+        alert("Aluno cadastrado com sucesso!");
+        location.href="../user/index_user.php";
+    }
+</script>
+
 <?php
 session_start();
 require_once '../classes/Aluno.php';
@@ -23,6 +31,6 @@ $a ->setId_usuario($id_usuario);
 
 $a->inserir_aluno();
 
-
+echo "<script>confirmacao()</script>";
 
 
