@@ -1,0 +1,21 @@
+/* 
+    Created on : 17/08/2016, 15:20:40
+    Author     : User
+*/
+
+.titulo{
+    background-color: #DCDCDC;
+}
+
+.body{
+    background: #ffffff;
+    color: #000000;
+}
+
+input{
+    color: #000000;
+}
+
+.column + .column {
+    margin-left: 3%;
+}

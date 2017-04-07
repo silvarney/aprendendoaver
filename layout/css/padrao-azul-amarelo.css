@@ -1,0 +1,76 @@
+/* 
+    Created on : 17/08/2016, 15:12:48
+    Author     : User
+*/
+
+html{
+    background: #0000ff;
+    color: #ffff00;
+    cursor: url(../../imagem/cursor/amarelo.cur), auto;  
+}
+
+input{
+    color: #ffff00;
+    background-color: #0000ff;
+    cursor: url(../../imagem/cursor/amarelo.cur), auto;
+}
+
+textarea{
+    color: #ffff00;
+    background-color: #0000ff;
+    cursor: url(../../imagem/cursor/amarelo.cur), auto;
+}
+
+label{
+    cursor: url(../../imagem/cursor/amarelo.cur), auto;
+}
+
+label > input:checked + img{
+    border: 10px solid #ffff00;
+}
+
+select{
+    color: #ffff00;
+    background-color: #0000ff;
+    cursor: url(../../imagem/cursor/amarelo.cur), auto;
+}
+
+button{
+    color: #ffff00;
+    background-color: #0000ff;
+    
+}
+
+.titulo-login {
+    background-color: #0000CD;
+    text-align: center;
+}
+
+.box-login{
+    background-color: #6666ff;
+}
+
+.column + .column {
+    margin-left: 3%;
+}
+
+ul {
+    background: -moz-linear-gradient(top, #0000CD, #000099);
+    background: -webkit-gradient(linear, left top, left bottom, from(#0000CD), to(#000099));
+    background: -o-linear-gradient(top, #0000CD, #000099);
+}
+
+li a {
+    color: #ffff00;
+}
+
+li a:hover {
+    background-color: #000099;
+}
+
+.modalDialog > div {
+    background: #fff;
+    background: -moz-linear-gradient(#0000CD, #000099);
+    background: -webkit-linear-gradient(#0000CD, #000099);
+    background: -o-linear-gradient(#0000CD, #000099);
+}
