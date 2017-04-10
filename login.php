@@ -13,7 +13,7 @@ session_start();
     </head>
     <body>
         <div class="titulo-login">
-            <img class="imagem-titulo-index" src="imagem/logo_amarelo.png" alt="imagem com a logo,  Aprendendo a ver.">
+            <img class="imagem-titulo-index" src="imagem/logo_preto.png" alt="imagem com a logo,  Aprendendo a ver.">
         </div>
         <div class="row">
             <div class="column column-1"></div>
@@ -89,7 +89,6 @@ session_start();
                         <div class="column column-4">
                             <label>Email</label><br>     
                             <input type="text" name="email_usuario" size="30"><br><br>
-
                             <label>Nivel Acadêmico</label><br>     
                             <select name="escolaridade_usuario">
                                 <option>Graduação</option>
@@ -105,17 +104,13 @@ session_start();
                             <input type="text" name="local_usuario" size="30"><br><br>
                         </div>
                     </div>
-
-
-
-
                     <button type="submit">Salvar</button>
                     <a href="#">
                         <button type="button">Fechar</button>
                     </a>
                 </form>
-
             </div>
         </div>
     </body>
+    
 </html>

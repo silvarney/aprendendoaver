@@ -1,7 +1,7 @@
 <script language="JavaScript">
     function confirmacao()
     {
-        location.href="../user/index_user.php";
+        location.href="../user/index_user.php#resultado";
     }
 </script>
 

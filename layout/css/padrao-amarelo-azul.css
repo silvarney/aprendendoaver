@@ -3,20 +3,76 @@
     Author     : User
 */
 
-.titulo{
-    background-color: #F0E68C;
-}
 
-.body{
-    background: #ffff00;
+
+html{
+    background: #ffff00; 
     color: #0000ff;
+    cursor: url(../../imagem/cursor/amarelo.cur), auto;  
 }
 
 input{
     color: #0000ff;
+    background-color: #ffff00;
+    cursor: url(../../imagem/cursor/amarelo.cur), auto;
+}
+
+textarea{
+    color: #000000;
+    background-color: #0000ff;
+    cursor: url(../../imagem/cursor/amarelo.cur), auto;
+}
+
+label{
+    cursor: url(../../imagem/cursor/amarelo.cur), auto;
+}
+
+label > input:checked + img{
+    border: 10px solid #ffff00;
+}
+
+select{
+    color: #ffffff;
+    background-color: #0000ff;
+    cursor: url(../../imagem/cursor/amarelo.cur), auto;
+}
+
+button{
+    color: #0000ff;
+    background-color: #ffff00;
+    
+}
+
+.titulo-login {
+    background-color: #F0E68C;
+    text-align: center;
+}
+
+.box-login{
     background-color: #F0E68C;
 }
 
 .column + .column {
     margin-left: 3%;
+}
+
+ul {
+    background: -moz-linear-gradient(top, #0000CD, #000099);
+    background: -webkit-gradient(linear, left top, left bottom, from(#0000CD), to(#000099));
+    background: -o-linear-gradient(top, #0000CD, #000099);
+}
+
+li a {
+    color: #ffff00;
+}
+
+li a:hover {
+    background-color: #000099;
+}
+
+.modalDialog > div {
+    background: #fff;
+    background: -moz-linear-gradient(#0000CD, #000099);
+    background: -webkit-linear-gradient(#0000CD, #000099);
+    background: -o-linear-gradient(#0000CD, #000099);
 }

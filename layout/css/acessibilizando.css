@@ -47,6 +47,23 @@ a:hover {
     text-decoration: none;
 }
 
+th{
+    border: 3px solid #ffff00 ;
+}
+td{
+    border: 3px solid #ffff00 ;
+}
+
+.titulo-comando{
+    text-align: center;
+    font-size: 32px;
+    padding: 2%;
+}
+.orientacoes{
+    text-align: justify;
+    font-size: 30px;
+    padding: 2%;
+}
 
 .modalDialog {
     position: fixed;
@@ -144,7 +161,8 @@ input{
     margin-right: 5%;
     margin-top: 2%;
     border: 3px solid #ffff00;
-
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    font-size: 32px;
 }
 
 .box-apresentacao{

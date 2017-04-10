@@ -39,6 +39,22 @@ $mostrar_teste = $teste->ler_teste();
             <li><a href="../controle/sair.php" accesskey="6">sair(6)</a></li>
         </ul>
 
+        <div>
+            <div class="titulo-comando">
+                COMANDOS
+            </div>
+            <div class="orientacoes">
+                
+                    Para cada item, Barraga instrui comandos para cada item das seções. Segue abaixo o que ela denomina de “DIRECCIONES PARA LA ADMINISTRACIÓN DE ÍTEM POR ÍTEM / INSTRUÇÕES PARA A ADMINISTRAÇÃO DE ITEM POR ITEM”.
+                    1. Diga: "Coloque o mouse na primeira linha. Diga forma dentro da caixa, na linha que marcam assemelhando-se (isto é exatamente igual) para a caixa".	
+                    2. Diga "Mover o mouse para a próxima linha e marca o caminho que é diferente (que não se parece com os outros)".
+                    3. Diga: "Mover o mouse para a próxima linha. Olhe para a forma como a caixa e marcar um na linha que se assemelha (ou seja, exatamente como) que está na caixa ".
+                    4. Diga: "Mover o mouse para a próxima linha e colocar uma marca na cruz."
+                    5. Diga: "Olhe para o caminho na caixa, marque um na linha que parece (que é exatamente o mesmo)."
+                    ...
+            </div>
+        </div>
+
         <?php
         echo " <form method='POST' action='../controle/cadastrando_teste.php'>"
         . "

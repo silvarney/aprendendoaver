@@ -6,9 +6,6 @@ require_once '../classes/Teste.php';
 usuarioLogado();
 User();
 
-$aluno = new Aluno();
-$mostrar_aluno = $aluno->ler_alunos($_SESSION['id']);
-
 $teste = new Teste();
 $mostrar_teste = $teste->ler_teste();
 ?>
@@ -38,44 +35,34 @@ $mostrar_teste = $teste->ler_teste();
             <li><a href="#" accesskey="5">Contatos(5)</a></li>
             <li><a href="../controle/sair.php" accesskey="5">sair(6)</a></li>
         </ul>
-
+        
+        <?php
+            $nome = array("ALUNO TESTE 1", "ALUNO TESTE 2", "ALUNO TESTE 3", "ALUNO TESTE 4", "ALUNO TESTE 5", "ALUNO TESTE 6", "ALUNO TESTE 7", "ALUNO TESTE 8", "ALUNO TESTE 9", "ALUNO TESTE 1");
+            $acertos = array(40, 30, 42, 48, 37, 20, 30, 34, 19, 45);
+            $data = array("12/01/01", "12/01/01", "14/01/01", "17/01/01", "23/01/01", "24/01/01", "05/02/01", "10/02/01", "19/02/01", "12/03/01");
+        ?>
+        
         <table class="tabela-resultado">
             <thead>
                 <tr>
-                    <th data-field="teste">Resposta 1</th>
-                    <th data-field="teste">Resposta 2</th>
-                    <th data-field="teste">Resposta 3</th>
-                    <th data-field="teste">Resposta 4</th>
-                    <th data-field="teste">Resposta 5</th>
-                    <th data-field="teste">Resposta 6</th>
-                    <th data-field="teste">Resposta 7</th>
-                    <th data-field="teste">Resposta 8</th>
-                    <th data-field="teste">Resposta 9</th>
-                    <th data-field="teste">Resposta 10</th>
-                    <th data-field="aluno">Aluno</th>
+                    <th data-field="teste">Aluno</th>
+                    <th data-field="teste">Acertos</th>
+                    <th data-field="teste">Data</th>
                 </tr>
             </thead>
 
             <tbody> 
                 <?php
-                foreach ($mostrar_teste as $linha_teste) {
+                        for ($i = 0; $i < 10; $i++){
                     echo "<tr>" .
-                    "<td>" . $linha_teste->teste_1 . "</td>" .
-                    "<td>" . $linha_teste->teste_2 . "</td>" .
-                    "<td>" . $linha_teste->teste_3 . "</td>" .
-                    "<td>" . $linha_teste->teste_4 . "</td>" .
-                    "<td>" . $linha_teste->teste_5 . "</td>" .
-                    "<td>" . $linha_teste->teste_6 . "</td>" .
-                    "<td>" . $linha_teste->teste_7 . "</td>" .
-                    "<td>" . $linha_teste->teste_8 . "</td>" .
-                    "<td>" . $linha_teste->teste_9 . "</td>" .
-                    "<td>" . $linha_teste->teste_10 . "</td>" .
-                    "<td>" . $linha_teste->nome_aluno . "</td>" .
+                    "<td>" . $nome[$i] . "</td>" .
+                    "<td>" . $acertos[$i]. "</td>" .
+                    "<td>" . $data[$i]. "</td>" .
                     "</tr>";
                 }
                 ?>
             </tbody>
         </table>
-
+        <br><br><br><br>
     </body>
 </html>

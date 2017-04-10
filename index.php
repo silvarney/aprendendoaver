@@ -17,13 +17,13 @@
         </div>
         <hr>
         <div class="row box-index">
-            <a href="controle/selecao_cor.php?id=1" class="button-base base-preto">SELECIONE PADRÃO DE COR - PRETO</a>
+            <a href="controle/selecao_cor.php?id=1" class="button-base base-preto">SELECIONE PADRÃO DE COR - LETRA BRANCA</a>
             
-            <a href="controle/selecao_cor.php?id=2" class="button-base base-branco">SELECIONE PADRÃO DE COR - BRANCO</a>
+            <a href="controle/selecao_cor.php?id=2" class="button-base base-branco">SELECIONE PADRÃO DE COR - LETRA PRETA</a>
             
-            <a href="controle/selecao_cor.php?id=3" class="button-base base-azul">SELECIONE PADRÃO DE COR - AZUL</a>
+            <a href="controle/selecao_cor.php?id=3" class="button-base base-azul">SELECIONE PADRÃO DE COR - LETRA AMARELA</a>
             
-            <a href="controle/selecao_cor.php?id=4" class="button-base base-amarelo">SELECIONE PADRÃO DE COR - AMARELO</a>
+            <a href="controle/selecao_cor.php?id=4" class="button-base base-amarelo">SELECIONE PADRÃO DE COR - LETRA AZUL</a>
         </div>
 
     </body>

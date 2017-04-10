@@ -20,9 +20,9 @@ $local = isset($_POST['local_usuario']) ? $_POST['local_usuario'] : '';
 $rua = isset($_POST['rua_usuario']) ? $_POST['rua_usuario'] : '';
 $cidade = isset($_POST['cidade_usuario']) ? $_POST['cidade_usuario'] : '';
 $estado = isset($_POST['estado_usuario']) ? $_POST['estado_usuario'] : '';
-$endereco = $rua.", ".$cidade.", ".$estado; //o endereco eh concatenacao de tres campos
-$permissao = "t"; //t = permissao temporaria
-$nivel = "u"; //u = usuario padrao
+$endereco = $rua.", ".$cidade.", ".$estado; 
+$permissao = "t"; 
+$nivel = "u"; 
 
 
 $novo_usuario = new Usuario();
